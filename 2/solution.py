@@ -21,6 +21,6 @@ def validate_game(game):
 
 
 lines = read_input("input.txt")
-total = sum(validate_game(line) for line in lines)
+total = sum( validate_game(line) for line in lines)
 
 print(total)
